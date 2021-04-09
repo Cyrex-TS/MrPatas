@@ -246,7 +246,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Calmao gordo puto estoy procesando 😎👏\n\nNo spames negro del orto 🤬🤑',
+				wait: 'Espera ciruja no seas pesado\n\nSpameas y me cojo a tu tía 🤬',
 				success: '✔️ Listo ✔️',
                                 levelon: '❬ ✔ ❭ *Level activado*',
 				leveloff: ' ❬ X ❭  *Level desactivado*',
@@ -259,10 +259,10 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando es solo para grupos! ❌',
 					ownerG: '[❗] Este comando solo puede ser utilizado por un admin del grupo! ❌',
-					ownerB: '[❗] Este comando solo lo usa ShanBot! ❌',
+					ownerB: '[❗] Este comando solo lo usa el SrPatas! ❌',
 					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo! ❌',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador! ❌',
-                                        daftarB: `── 「REGISTRATE AWEVONAO」\n\nHOLA PA!\n\nNo estas registrado en mi base de datos 😳 \n\nComando : ${prefix}daftar Nombre\nEjemplo : ${prefix}daftar Shanduy
+                                        daftarB: `── 「REGISTRATE CARA DE PINGO」\n\nHOLA CHINCHULIN!\n\nNo estas registrado en mi base de datos 😳 \n\nComando : ${prefix}daftar Nombre\nEjemplo : ${prefix}daftar Cyrex
 `,
 				}
 			}
@@ -459,7 +459,7 @@ async function starts() {
                 break
               case 'owner':
                 case 'creator':
-                  client.sendMessage(from, {displayname: "Shanduy", vcard: vcard}, MessageType.contact, { quoted: mek})
+                  client.sendMessage(from, {displayname: "Cyrex", vcard: vcard}, MessageType.contact, { quoted: mek})
                client.sendMessage(from, 'Aquí está el número de mi propietario, guardar más tarde',MessageType.text, { quoted: mek} )
                 break
 	case 'hidetag':
@@ -1310,14 +1310,14 @@ async function starts() {
 					break
                                   case 'daftar':
 					client.updatePresence(from, Presence.composing)
-					if (isUser) return reply('Ya estas registrado gordo trolo 🧐')
+					if (isUser) return reply('Ya estas registrado ciruja 🧐')
 					if (args.length < 1) return reply(`Incorrecto \nCommand : ${prefix}daftar Nombre\nComando : ${prefix}daftar Shanduy`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
 						user.push(sender)
 						fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-						client.sendMessage(from, `\`\`\`Registrado con exito flaco 👏😎🥳\`\`\`\n\n\`\`\`DNI: Socio De La Oscu Army 🤑😎\`\`\`\n\n\`\`\`Dia ${date} ${time}\`\`\`\n\`\`\`[Usuario]: ${jeneng}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usuários ${user.length}\`\`\``, text, {quoted: mek})
+						client.sendMessage(from, `\`\`\`Registrado con exito 👏😎🥳\`\`\`\n\n\`\`\`DNI: Perrita de Cyrex 😎\`\`\`\n\n\`\`\`Dia ${date} ${time}\`\`\`\n\`\`\`[Usuario]: ${jeneng}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`Usa el bot tranqui\`\`\`\n\`\`\`Spameas y te vas cogido\`\`\`\n\`\`\`\nTotal de usuários ${user.length}\`\`\``, text, {quoted: mek})
 					break
                                 case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
@@ -1605,10 +1605,10 @@ async function starts() {
 							reply('❌ *ERROR* ❌')
 						}
 						break
-					case 'nsfwbobs': 
+					case 'nsfwboobs': 
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/biganimetiddies`, {method: 'get'})
+							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/boobs`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Quiero ver tetas'})
 						} catch (e) {
@@ -1619,7 +1619,7 @@ async function starts() {
 					case 'nsfwblowjob':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
+							res = await fetchJson(`https://tobz-api.herokuapp.com/api/blowjob`, {method: 'get'})
 							buffer = await getBuffer(res.result)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'No antojen'})
 						} catch (e) {
@@ -1652,7 +1652,7 @@ async function starts() {
 				case 'nsfwass':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`'https://meme-api.herokuapp.com/gimme/animebooty`, {method: 'get'})
+							res = await fetchJson(`'https://meme-api.herokuapp.com/gimme/ass`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ese es el culo que querías?'})
 						} catch (e) {
@@ -1660,12 +1660,12 @@ async function starts() {
 							reply('❌ *ERROR* ❌')
 						}
 						break
-					case 'nsfwsidebobs':
+					case 'nsfwsideboobs':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/sideoppai`, {method: 'get'})
+							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/sideboobs`, {method: 'get'})
 							buffer = await getBuffer(res.url)
-							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'La vieja de gabo, tremenda puta'})
+							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Rica la hermana de alguien'})
 						} catch (e) {
 							console.log(`Error :`, color(e,'red'))
 							reply('❌ *ERROR* ❌')
@@ -1685,9 +1685,9 @@ async function starts() {
 					case 'nsfwthighs':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/animethighss`, {method: 'get'})
+							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/thighss`, {method: 'get'})
 							buffer = await getBuffer(res.url)
-							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Por que muslos?'})
+							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Buenos muslos?'})
 						} catch (e) {
 							console.log(`Error :`, color(e,'red'))
 							reply('❌ *ERROR* ❌')
@@ -1696,7 +1696,7 @@ async function starts() {
 					case 'nsfwfeets':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/animefeets`, {method: 'get'})
+							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/feet`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'MMMMM PATAS'})
 						} catch (e) {
