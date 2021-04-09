@@ -2,12 +2,9 @@ const nsfwmenu = (prefix, pushname) => {
     return `Comandos para ver pornito
     ◪ *NSFW*
   │
-  ├─ ❏ ${prefix}nsfwbobs
-  ├─ ❏ ${prefix}randomhentaio
-  ├─ ❏ ${prefix}nsfwtrap
+  ├─ ❏ ${prefix}nsfwboobs
   ├─ ❏ ${prefix}nsfwass
-  ├─ ❏ ${prefix}nsfwbelly
-  ├─ ❏ ${prefix}nsfwsidebobs
+  ├─ ❏ ${prefix}nsfwsideboobs
   ├─ ❏ ${prefix}nsfwahegao
   ├─ ❏ ${prefix}nsfwthighs
   ├─ ❏ ${prefix}nsfwarmpits
