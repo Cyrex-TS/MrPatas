@@ -1,15 +1,15 @@
 const help = (prefix) => {
 	return `
-「 *Shan Bot* 」
+「 *Sr Patas* 」
 
 ◪ *Información*
   ❏ Comando: 「  ${prefix}  」
-  ❏ Creador: Shanduy
-  ❏ Como instalar el bot: https://youtu.be/rfxuYsWGmQo
-  ❏ Instagram: https://www.instagram.com/thepavos?r=nametag
+  ❏ Creador: Cyrex
+  ❏ Instagram: https://www.instagram.com/cyrexts
 
 ◪ *Para usar al bot*
   ❏ Registrate con el comando ${prefix}daftar Nombre
+  ❏ No romper la pija con comandos de admin porque sos boleta
 
 ◪ *SOBRE*
   │
@@ -58,7 +58,7 @@ const help = (prefix) => {
 
      ❏ Para activar los NSFW coloque el siguiente comando ${prefix}nsfw1 y para desactivar los NSFW coloque ${prefix}nsfw0
 
-No te olvides de seguirme en instagram flaco
+No te olvides de seguirme en instagram cara de pingo
 `
 }
 
