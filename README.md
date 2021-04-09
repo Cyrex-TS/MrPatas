@@ -1,6 +1,4 @@
-# ShanBot
-Pasos para instalar el bot via termux
-https://youtu.be/rfxuYsWGmQo
+# Sr. Patas
 
 pkg install git
 
@@ -12,9 +10,9 @@ pkg install nodejs
 
 pkg install npm
 
-git clone https://github.com/shanduy/ShanBot
+git clone https://github.com/Cyrex-TS/SrPatas
 
-cd ShanBot
+cd SrPatas
 
 bash install.sh
 
