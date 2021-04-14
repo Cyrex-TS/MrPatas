@@ -5,19 +5,11 @@ const help = (prefix) => {
 ◪ *Información*
   ❏ Comando: 「  ${prefix}  」
   ❏ Creador: Cyrex
-  ❏ Instagram: https://www.instagram.com/cyrexts
+  ❏ Instagram: https://www.instagram.com/cyrex.ofc
 
 ◪ *Para usar al bot*
   ❏ Registrate con el comando ${prefix}daftar Nombre
-  ❏ No romper la pija con comandos de admin porque sos boleta
-
-◪ *SOBRE*
-  │
-  ├─ ❏ ${prefix}info
-  ├─ ❏ ${prefix}blocklist
-  ├─ ❏ ${prefix}chatlist
-  ├─ ❏ ${prefix}ping
-  └─ ❏ ${prefix}bugreport
+  ❏ No romper la pija cebado con los comandos porque sos boleta
 
 ◪ *CREAR*
   │
@@ -35,22 +27,6 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}play
   ├─ ❏ ${prefix}bahasa
   └─ ❏ ${prefix}tts
-
-◪ *DUEÑO*
-  │
-  ├─ ❏ ${prefix}setprefix
-  ├─ ❏ ${prefix}block
-  ├─ ❏ ${prefix}bc
-  ├─ ❏ ${prefix}bcgc
-  ├─ ❏ ${prefix}clone
-  └─ ❏ ${prefix}clearall
-
-◪ *OTROS*
-  │
-  ├─ ❏ ${prefix}wame
-  ├─ ❏ ${prefix}virtex (Hernqn)
-  ├─ ❏ ${prefix}exe
-  └─ ❏ ${prefix}qrcode
   
 ◪ *NSWF*
   │
