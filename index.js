@@ -1,14 +1,3 @@
-/*
-* Benito Antonio Martínez Ocasio
-* Directamente del espacio
-* Me pongo Rolex como si fueran Casio
-* Modelo de revista sin gimnasio
-* ¡Ring, ring! La calle me llamó
-
-- Que hay de nuevo?
-* Nada
-*/
-
 const {
     WAConnection,
     MessageType,
@@ -78,9 +67,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:10.0\n' 
-            + 'FN:ShanBot2\n' // Nombre
-            + 'ORG:Shanduy;\n' // Propietario
-            + 'TEL;type=CELL;type=VOICE;waid=593997889284:+593 99 788 9284\n' // ID de WhatsApp + número de teléfono
+            + 'FN:Sr.Patas\n' // Nombre
+            + 'ORG:Manton;\n' // Propietario
+            + 'TEL;type=CELL;type=VOICE;waid=5491122508064:+5491122508064\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
