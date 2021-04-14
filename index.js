@@ -277,7 +277,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '593997889284@s.whatsapp.net'
+                        const NomerOwner = '5491122508064@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'TU CLAVE API'
                         /******End of ApiKey Input******/
@@ -302,7 +302,7 @@ async function starts() {
             try {
                 if (currentLevel === undefined && checkId === undefined) addLevelingId(sender)
                 const amountXp = Math.floor(Math.random() * 10) + 500
-                const requiredXp = 5000 * (Math.pow(2, currentLevel) - 1)
+                const requiredXp = 6500 * (Math.pow(2, currentLevel) - 1)
                 const getLevel = getLevelingLevel(sender)
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
@@ -634,7 +634,7 @@ async function starts() {
               data = await fetchJson(`https://tobz-api.herokuapp.com/api/kbbi?kata=${tels}&apikey=BotWeA`)
               if (data.error) return reply(data.error)
               hasil = `${data.result}`
-              reply(hasil)
+              reply(hasil)0
               break
 				case 'joox':
 			tels = body.slice(6)
@@ -1300,13 +1300,13 @@ async function starts() {
                                   case 'daftar':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('Ya estas registrado ciruja 🧐')
-					if (args.length < 1) return reply(`Incorrecto \nCommand : ${prefix}daftar Nombre\nComando : ${prefix}daftar Shanduy`)
+					if (args.length < 1) return reply(`Incorrecto \nCommand : ${prefix}daftar Nombre\nComando : ${prefix}daftar Manton`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
 						user.push(sender)
 						fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-						client.sendMessage(from, `\`\`\`Registrado con exito 👏😎🥳\`\`\`\n\n\`\`\`DNI: Perrita de Cyrex 😎\`\`\`\n\n\`\`\`Dia ${date} ${time}\`\`\`\n\`\`\`[Usuario]: ${jeneng}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`Usa el bot tranqui\`\`\`\n\`\`\`Spameas y te vas cogido\`\`\`\n\`\`\`\nTotal de usuários ${user.length}\`\`\``, text, {quoted: mek})
+						client.sendMessage(from, `\`\`\`Registrado con exito 👏😎🥳\`\`\`\n\n\`\`\`RANGO: Perrita de Manton  😎\`\`\`\n\n\`\`\`Dia ${date} ${time}\`\`\`\n\`\`\`[Usuario]: ${jeneng}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`Usa el bot tranqui\`\`\`\n\`\`\`Spameas y te vas cogido\`\`\`\n\`\`\`\nTotal de usuários ${user.length}\`\`\``, text, {quoted: mek})
 					break
                                 case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
@@ -1528,7 +1528,7 @@ async function starts() {
                     })
             break
 				case 'fitnah':
-				if (args.length < 1) return reply(`Uso :\n${prefix}fitnah [@tag|pesan|balasanbot]]\n\nEx : \n${prefix}fitnah @Un weon del grupo|Hola|Hola también`)
+				if (args.length < 1) return reply(`Uso :\n${prefix}fitnah [@tag|pesan|balasanbot]]\n\nEx : \n${prefix}fitnah @Un ciruja del grupo|Hola|Hola también`)
 				var gh = body.slice(7)
 				mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					var replace = gh.split("|")[0];
