@@ -1,5 +1,5 @@
 const toinmenu = (prefix, pushname) => {
-    return `◪ *Comandos de Shan*
+    return `◪ *Comandos del Sr. Patas*
     │
     ├─ ❏ ${prefix}setprefix
     ├─ ❏ ${prefix}block
