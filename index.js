@@ -1641,7 +1641,7 @@ async function starts() {
 				case 'nsfwass':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`'https://meme-api.herokuapp.com/gimme/ass`, {method: 'get'})
+							res = await fetchJson(`'https://meme-api.herokuapp.com/gimme/greatass`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ese es el culo que querías?'})
 						} catch (e) {
@@ -1685,7 +1685,7 @@ async function starts() {
 					case 'nsfwfeets':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/feet`, {method: 'get'})
+							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/verifiedfeet`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'MMMMM PATAS'})
 						} catch (e) {
@@ -1721,7 +1721,7 @@ async function starts() {
                                         const latensi = speed() - timestamp
                                         client.updatePresence(from, Presence.composing) 
 				        uptime = process.uptime()
-                                        client.sendMessage(from, `Velocidad: *${latensi.toFixed(4)} _Second_*\nDevice: *Alcatel Pixi 4*\nRAM: *8/128*\nData: *Smartfren*\nJaringan: *2G*\nStatus: *Cargando*`, text, { quoted: mek})
+                                        client.sendMessage(from, `Velocidad: *${latensi.toFixed(4)} _Second_*\nDevice: *iPhone con Play Store*\nRAM: *2/32*\nData: *Virgostar*\nJaringan: *4G*\nStatus: *Cargando*`, text, { quoted: mek})
                                         break
                                 case 'neonlogo':
                                         var gh = body.slice(9)
